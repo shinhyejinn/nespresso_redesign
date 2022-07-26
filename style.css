@@ -302,4 +302,6 @@ input[id=trigger]:checked + label[for=trigger] {
   .section2 .wrap .con1, .con2, .con3, .con4, .con5{flex-direction: column;}
   footer .left .info a{margin-right: 20px;}
   .mo_s{display: block;}
+  .top-btn{width: 50px; height: 50px; right: 14%;}
+  .section4 .wrap .container .item .picture{width: 350px; height: 250px;}
 }
