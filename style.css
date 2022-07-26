@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 .mobile{display: none;}
+.mo_s{display: none;}
 .ham{display: none;}
 body {font-family: 'Noto Sans KR', sans-serif;  font-size: 15px; color: #0e0e0e; } 
 img { max-width: 100%;} 
@@ -295,3 +296,10 @@ input[id=trigger]:checked + label[for=trigger] {
 
 }
 
+@media all and (max-width:760px) {
+  .slide .kv .txt h3{font-size: 24px; line-height: 38px;}
+  .section1 .intro .box .txt {width:350px}
+  .section2 .wrap .con1, .con2, .con3, .con4, .con5{flex-direction: column;}
+  footer .left .info a{margin-right: 20px;}
+  .mo_s{display: block;}
+}
